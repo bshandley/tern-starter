@@ -6,5 +6,5 @@
 
 I started this stack to facilitate development of React/Typescript frontend with Express/Node backend.
 
-Unlike other implemntations, this project has only one webpack.config file and one tsconfig file to ease maintenance.
+Unlike other implementations, this project has only one webpack.config file and one tsconfig file to ease maintenance.
 
