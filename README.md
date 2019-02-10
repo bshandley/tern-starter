@@ -1,10 +1,18 @@
-﻿# TERN Stack Starter
+﻿# TERN Half-Stack Starter
 **T** Typescript
 **E** Expressjs
 **R** Reactjs
 **N** NodeJs
 
-I started this stack to facilitate development of React/Typescript frontend with Express/Node backend.
+React/Typescript frontend with Express/Node backend in a single project.
 
-Unlike other implementations, this project has only one webpack.config file and one tsconfig file to ease maintenance.
 
+
+#Why?
+Keeping up with seperate projects for front and backend is tedious, particularly if you're just trying to prototype. 
+This stack (hopefully) makes it easy to jump in and start coding, without a lot of overhead.
+
+#Getting Started
+Just run
+`npm run-script build`
+to get started. The node server is app.ts, while the react frontend is index.tsx. All changes are monitored and repackages on save. Default port for node server is 3000. 
