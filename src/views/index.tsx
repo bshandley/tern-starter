@@ -23,6 +23,6 @@ class App extends React.Component<any, any> {
 }
 
 ReactDOM.render(
-    <App compiler="TypeScript" framework="React" />,
+    <App />,
     document.getElementById("app")
 );
