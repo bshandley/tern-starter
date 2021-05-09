@@ -13,7 +13,7 @@ app.get('/ApiTest', (req: Request, res: Response) => {
     res.send('The node server says Hello World!!');
 });
 
-app.listen(3000);
+app.listen(3000, () => console.log('Listening on port 3000'));
 
 process.on( 'SIGINT', () => {
     console.log( "\nGracefully shutting down from SIGINT (Ctrl-C)" );
