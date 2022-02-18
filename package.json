@@ -9,27 +9,27 @@
   "author": "Bradley S Handley",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.21.1",
-    "express": "^4.17.1",
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
     "path": "^0.12.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
-    "@types/express": "^4.17.11",
-    "@types/react": "^17.0.5",
-    "@types/react-dom": "^17.0.3",
+    "@types/express": "^4.17.13",
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.11",
     "awesome-typescript-loader": "^5.2.1",
     "file-loader": "^6.2.0",
-    "nodemon": "^2.0.7",
-    "nodemon-webpack-plugin": "^4.5.2",
+    "nodemon": "^2.0.15",
+    "nodemon-webpack-plugin": "^4.7.1",
     "npm-run-all": "^4.1.5",
     "rimraf": "^3.0.2",
-    "source-map-loader": "^2.0.1",
-    "typescript": "^4.2.4",
-    "webpack": "^5.36.2",
-    "webpack-cli": "^4.7.0",
+    "source-map-loader": "^3.0.1",
+    "typescript": "^4.5.5",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2",
     "webpack-node-externals": "^3.0.0"
   }
 }
