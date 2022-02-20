@@ -15,4 +15,6 @@ This stack (hopefully) makes it easy to jump in and start coding, without a lot 
 # Getting Started
 Just run
 `npm run-script build`
-to get started. The node server is app.ts, while the react frontend is index.tsx. All changes are monitored and repackaged on save. Default port for node server is 3000. 
+to get started. The Node server is app.ts, while the React frontend is index.tsx. All changes are monitored and repackaged on save using nodemon. The default port for the Node server is 3000. 
+
+I've also included a Dockerfile for basic containerization. Just run `docker build -t tern-starter .` and something like `docker run -p 3000:3000 tern-starter` to get that up and running.
