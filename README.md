@@ -14,7 +14,7 @@ This stack (hopefully) makes it easy to jump in and start coding, without a lot 
 
 **Do not run this code in production environments. This is for POCs and prototyping only.**
 
-#Other Uses
+# Other Uses
 I have included various other files for containerization, CI/CD pipelines, and Kubernetes testing. You may safely delete `Dockerfile` and `Jenkinsfile` without breaking anything. Feel free to use these files and adapt to your own needs.
 
 # Getting Started
