@@ -1,6 +1,6 @@
 {
   "name": "tern-stack-starter",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "TERN Stack Starter",
   "main": "index.js",
   "scripts": {
