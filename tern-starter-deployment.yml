@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tern-starter-deployment
+  labels:
+    app: tern-starter
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: tern-starter
+  template:
+    metadata:
+      labels:
+        app: tern-starter
+    spec:
+      containers:
+        - name: tern-starter
+          image: bshandley/tern-starter:latest
+          ports:
+            - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: tern-starter
+spec:
+  selector:
+    app: tern-starter
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000
+      nodePort: 30081
+  type: NodePort
