@@ -26,4 +26,8 @@ node {
             app.push("latest")
         }
     }
+
+    stage ('Update k8 cluster') {
+        sh 'kubectl rollout restart deployment tern-starter-deployment'
+    }
 }
