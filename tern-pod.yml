@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: tern-starter
+  labels:
+    name: tern-starter
+spec:
+  containers:
+    - name: tern-starter
+      image: bshandley/tern-starter:latest
+      ports:
+        - containerPort: 3000
